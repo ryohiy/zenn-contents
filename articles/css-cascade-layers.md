@@ -63,8 +63,8 @@ normal と比べるとOriginsの優先順位が逆転します。core origins �
 1. User-agentのimportant付きスタイル
 2. Userのimportant付きスタイル
 3. Authorのimportant付きスタイル
-4. Userの通常スタイル
-5. Authorの通常スタイル
+4. Authorの通常スタイル
+5. Userの通常スタイル
 6. User-agentの通常スタイル
 
 #### Origin and Importanceでの優先順位
@@ -74,8 +74,8 @@ additional origins も追加すると、優先順位付けは降順で以下の�
 3. Userのimportant付きスタイル
 4. Authorのimportant付きスタイル
 5. アニメーション中のスタイル
-6. Userの通常スタイル
-7. Authorの通常スタイル
+6. Authorの通常スタイル
+7. Userの通常スタイル
 8. User-agentの通常スタイル
 
 この評価が[Origin and Importance](https://www.w3.org/TR/css-cascade-5/#cascade-origin)です。
