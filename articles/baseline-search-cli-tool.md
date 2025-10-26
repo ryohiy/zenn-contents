@@ -3,7 +3,8 @@ title: "Baseline情報をCLIで検索できるbaseline-searchを開発しまし�
 emoji: "🔍"
 type: "tech"
 topics: ['cli', 'baseline', 'typescript', 'react','ink']
-published: false
+published_at: '2025-10-29 07:00'
+published: true
 ---
 
 ## はじめに
@@ -20,6 +21,10 @@ Chromeチームが主催する[Baseline Tooling Hackathon](https://baseline.devp
 
 ## baseline-searchとは
 baseline-searchは、Web Platform機能のBaseline情報をCLI上から検索・閲覧できるツールです。
+
+### 開発のモチベーション
+開発中にWeb Platformの機能サポート状況を確認する際、ブラウザを開いて複数のサイトを行き来する必要があり、作業が中断されてしまうという課題がありました。「CLIからBaseline情報を確認できれば、開発者の生産性が向上するのではないか」と考え、[web-features](https://github.com/web-platform-dx/web-features)プロジェクトを活用してこのツールを開発しました。
+
 ![Demo](https://github.com/ryohiy/baseline-search/blob/main/assets/baseline-search-demo.gif)
 
 
@@ -33,20 +38,19 @@ npx baseline-search
 npx baseline-search --ja
 ```
 
-### 
 
-## 主な機能
+### 主な機能
 
-### 1. フリーテキスト検索
+#### 1. フリーテキスト検索
 Web Platform機能をキーワードで検索し、Baselineステータスを確認できます。
 
-### 2. Baseline Target List
+#### 2. Baseline Target List
 Baseline Widely AvailableやNewly Availableなど、ステータス別に機能を一覧表示できます。
 
-### 3. Recent Updates
+#### 3. Recent Updates
 過去28日間にBaselineステータスが変更された機能を確認できます。Web標準の最新動向をキャッチアップするのに便利です。
 
-### 4. 詳細情報の表示
+#### 4. 詳細情報の表示
 各機能を選択すると、詳細なBaselineステータスやブラウザサポート情報を表示します。
 
 ## まとめ
