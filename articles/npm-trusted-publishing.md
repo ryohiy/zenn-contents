@@ -3,7 +3,7 @@ title: "npm パッケージを npm trusted publishing を利用して公開す�
 emoji: "🛡️"
 type: 'tech'
 topics: ['frontend','npm','security','githubactions']
-published_at: '2025-11-17 08:00'
+published_at: '2025-11-17 07:30'
 published: true
 ---
 
@@ -11,7 +11,7 @@ published: true
 
 こんにちは。フロントエンドエンジニアをしている ryo です。<br/>
 先日、[Baseline Tooling Hackathon](https://baseline.devpost.com/) に参加して [baseline-search](https://github.com/ryohiy/baseline-search) というツールを作成しました。シンプルなツールですが個人的には気に入っていて、ハッカソン終了後も手隙の時にこのツールを少し改善したりしています。<br/>
-そのリポジトリで最近 npm trusted publishing を利用した GHA でのパッケージ公開の設定をしたので、その知見をまとめようと思います。よろしくお願いします。
+そのリポジトリで最近、npm trusted publishing を利用した GHA でのパッケージ公開の設定をしたので、その知見をまとめようと思います。よろしくお願いします。
 
 ## npm trusted publishing とは
 
@@ -39,7 +39,7 @@ https://github.com/ryohiy/baseline-search/blob/main/.github/workflows/release.ym
 
 ## まとめ
 
-今回は GHA 上で npm パッケージを公開する際の npm trusted publishing というセキュアな手法についてまとめました。設定も簡単なので、従来の手法を利用されている方は是非使ってみていただければと思います。読んでいただきありがとうございました。
+今回は GHA 上で npm パッケージを公開する際の npm trusted publishing という機能についてまとめました。設定も簡単なので、従来の手法を利用されている方は是非使ってみていただければと思います。読んでいただきありがとうございました。
 
 ## 参考資料
 
